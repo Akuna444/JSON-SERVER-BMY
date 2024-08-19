@@ -1,183 +1,183 @@
 { employees: [
-  {
-    "id": 1,
-    "full_name": "Abebe Bekele",
-    "gender": "Male",
-    "department": "Finance",
-    "manager_name": "Lemma Kassa",
-    "total_rating_point": 78,
-    "status": "Active"
-  },
-  {
-    "id": 2,
-    "full_name": "Alemayehu Mesfin",
-    "gender": "Male",
-    "department": "IT",
-    "manager_name": "Selamawit Tadesse",
-    "total_rating_point": 85,
-    "status": "Active"
-  },
-  {
-    "id": 3,
-    "full_name": "Hana Worku",
-    "gender": "Female",
-    "department": "HR",
-    "manager_name": "Abebe Bekele",
-    "total_rating_point": 90,
-    "status": "Active"
-  },
-  {
-    "id": 4,
-    "full_name": "Lemlem Assefa",
-    "gender": "Female",
-    "department": "Marketing",
-    "manager_name": "Alemayehu Mesfin",
-    "total_rating_point": 73,
-    "status": "Inactive"
-  },
-  {
-    "id": 5,
-    "full_name": "Getachew Hailu",
-    "gender": "Male",
-    "department": "Logistics",
-    "manager_name": "Tesfaye Melaku",
-    "total_rating_point": 80,
-    "status": "Active"
-  },
-  {
-    "id": 6,
-    "full_name": "Muluwork Tesfaye",
-    "gender": "Female",
-    "department": "Customer Service",
-    "manager_name": "Hana Worku",
-    "total_rating_point": 88,
-    "status": "Active"
-  },
-  {
-    "id": 7,
-    "full_name": "Tesfaye Melaku",
-    "gender": "Male",
-    "department": "Operations",
-    "manager_name": "Lemlem Assefa",
-    "total_rating_point": 65,
-    "status": "Inactive"
-  },
-  {
-    "id": 8,
-    "full_name": "Wondimu Mekonnen",
-    "gender": "Male",
-    "department": "Finance",
-    "manager_name": "Lemma Kassa",
-    "total_rating_point": 75,
-    "status": "Active"
-  },
-  {
-    "id": 9,
-    "full_name": "Aster Kebede",
-    "gender": "Female",
-    "department": "HR",
-    "manager_name": "Hana Worku",
-    "total_rating_point": 92,
-    "status": "Active"
-  },
-  {
-    "id": 10,
-    "full_name": "Biruk Tilahun",
-    "gender": "Male",
-    "department": "IT",
-    "manager_name": "Selamawit Tadesse",
-    "total_rating_point": 81,
-    "status": "Active"
-  },
-  {
-    "id": 11,
-    "full_name": "Meron Habtamu",
-    "gender": "Female",
-    "department": "Marketing",
-    "manager_name": "Alemayehu Mesfin",
-    "total_rating_point": 78,
-    "status": "Active"
-  },
-  {
-    "id": 12,
-    "full_name": "Kebede Alemu",
-    "gender": "Male",
-    "department": "Logistics",
-    "manager_name": "Tesfaye Melaku",
-    "total_rating_point": 83,
-    "status": "Active"
-  },
-  {
-    "id": 13,
-    "full_name": "Tigist Workneh",
-    "gender": "Female",
-    "department": "Customer Service",
-    "manager_name": "Hana Worku",
-    "total_rating_point": 85,
-    "status": "Active"
-  },
-  {
-    "id": 14,
-    "full_name": "Fekadu Demissie",
-    "gender": "Male",
-    "department": "Operations",
-    "manager_name": "Lemlem Assefa",
-    "total_rating_point": 77,
-    "status": "Active"
-  },
-  {
-    "id": 15,
-    "full_name": "Selamawit Tadesse",
-    "gender": "Female",
-    "department": "IT",
-    "manager_name": "Lemma Kassa",
-    "total_rating_point": 89,
-    "status": "Active"
-  },
-  {
-    "id": 16,
-    "full_name": "Lemma Kassa",
-    "gender": "Male",
-    "department": "Finance",
-    "manager_name": "Abebe Bekele",
-    "total_rating_point": 88,
-    "status": "Active"
-  },
-  {
-    "id": 17,
-    "full_name": "Genet Fekadu",
-    "gender": "Female",
-    "department": "HR",
-    "manager_name": "Hana Worku",
-    "total_rating_point": 91,
-    "status": "Active"
-  },
-  {
-    "id": 18,
-    "full_name": "Asnakech Mulugeta",
-    "gender": "Female",
-    "department": "Marketing",
-    "manager_name": "Alemayehu Mesfin",
-    "total_rating_point": 84,
-    "status": "Active"
-  },
-  {
-    "id": 19,
-    "full_name": "Mekonnen Teshome",
-    "gender": "Male",
-    "department": "Logistics",
-    "manager_name": "Tesfaye Melaku",
-    "total_rating_point": 76,
-    "status": "Inactive"
-  },
-  {
-    "id": 20,
-    "full_name": "Mahlet Girma",
-    "gender": "Female",
-    "department": "Customer Service",
-    "manager_name": "Hana Worku",
-    "total_rating_point": 87,
-    "status": "Active"
-  }
-]
-]
+    {
+      "id": 1,
+      "full_name": "Abebe Bekele",
+      "gender": "Male",
+      "department": "Finance",
+      "manager_name": "Lemma Kassa",
+      "total_rating_point": 78,
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "full_name": "Alemayehu Mesfin",
+      "gender": "Male",
+      "department": "IT",
+      "manager_name": "Selamawit Tadesse",
+      "total_rating_point": 85,
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "full_name": "Hana Worku",
+      "gender": "Female",
+      "department": "HR",
+      "manager_name": "Abebe Bekele",
+      "total_rating_point": 90,
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "full_name": "Lemlem Assefa",
+      "gender": "Female",
+      "department": "Marketing",
+      "manager_name": "Alemayehu Mesfin",
+      "total_rating_point": 73,
+      "status": "Inactive"
+    },
+    {
+      "id": 5,
+      "full_name": "Getachew Hailu",
+      "gender": "Male",
+      "department": "Logistics",
+      "manager_name": "Tesfaye Melaku",
+      "total_rating_point": 80,
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "full_name": "Muluwork Tesfaye",
+      "gender": "Female",
+      "department": "Customer Service",
+      "manager_name": "Hana Worku",
+      "total_rating_point": 88,
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "full_name": "Tesfaye Melaku",
+      "gender": "Male",
+      "department": "Operations",
+      "manager_name": "Lemlem Assefa",
+      "total_rating_point": 65,
+      "status": "Inactive"
+    },
+    {
+      "id": 8,
+      "full_name": "Wondimu Mekonnen",
+      "gender": "Male",
+      "department": "Finance",
+      "manager_name": "Lemma Kassa",
+      "total_rating_point": 75,
+      "status": "Active"
+    },
+    {
+      "id": 9,
+      "full_name": "Aster Kebede",
+      "gender": "Female",
+      "department": "HR",
+      "manager_name": "Hana Worku",
+      "total_rating_point": 92,
+      "status": "Active"
+    },
+    {
+      "id": 10,
+      "full_name": "Biruk Tilahun",
+      "gender": "Male",
+      "department": "IT",
+      "manager_name": "Selamawit Tadesse",
+      "total_rating_point": 81,
+      "status": "Active"
+    },
+    {
+      "id": 11,
+      "full_name": "Meron Habtamu",
+      "gender": "Female",
+      "department": "Marketing",
+      "manager_name": "Alemayehu Mesfin",
+      "total_rating_point": 78,
+      "status": "Active"
+    },
+    {
+      "id": 12,
+      "full_name": "Kebede Alemu",
+      "gender": "Male",
+      "department": "Logistics",
+      "manager_name": "Tesfaye Melaku",
+      "total_rating_point": 83,
+      "status": "Active"
+    },
+    {
+      "id": 13,
+      "full_name": "Tigist Workneh",
+      "gender": "Female",
+      "department": "Customer Service",
+      "manager_name": "Hana Worku",
+      "total_rating_point": 85,
+      "status": "Active"
+    },
+    {
+      "id": 14,
+      "full_name": "Fekadu Demissie",
+      "gender": "Male",
+      "department": "Operations",
+      "manager_name": "Lemlem Assefa",
+      "total_rating_point": 77,
+      "status": "Active"
+    },
+    {
+      "id": 15,
+      "full_name": "Selamawit Tadesse",
+      "gender": "Female",
+      "department": "IT",
+      "manager_name": "Lemma Kassa",
+      "total_rating_point": 89,
+      "status": "Active"
+    },
+    {
+      "id": 16,
+      "full_name": "Lemma Kassa",
+      "gender": "Male",
+      "department": "Finance",
+      "manager_name": "Abebe Bekele",
+      "total_rating_point": 88,
+      "status": "Active"
+    },
+    {
+      "id": 17,
+      "full_name": "Genet Fekadu",
+      "gender": "Female",
+      "department": "HR",
+      "manager_name": "Hana Worku",
+      "total_rating_point": 91,
+      "status": "Active"
+    },
+    {
+      "id": 18,
+      "full_name": "Asnakech Mulugeta",
+      "gender": "Female",
+      "department": "Marketing",
+      "manager_name": "Alemayehu Mesfin",
+      "total_rating_point": 84,
+      "status": "Active"
+    },
+    {
+      "id": 19,
+      "full_name": "Mekonnen Teshome",
+      "gender": "Male",
+      "department": "Logistics",
+      "manager_name": "Tesfaye Melaku",
+      "total_rating_point": 76,
+      "status": "Inactive"
+    },
+    {
+      "id": 20,
+      "full_name": "Mahlet Girma",
+      "gender": "Female",
+      "department": "Customer Service",
+      "manager_name": "Hana Worku",
+      "total_rating_point": 87,
+      "status": "Active"
+    }
+  ]
+}
