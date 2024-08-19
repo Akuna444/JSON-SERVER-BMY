@@ -1,4 +1,5 @@
-{ employees: [
+{
+  "employees": [
     {
       "id": 1,
       "full_name": "Abebe Bekele",
