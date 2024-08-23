@@ -148,6 +148,64 @@
     "confirm_password": "12"
   }
 ],
+"employee-attendance": [
+  {
+    "id": "1",
+    "full_name": "Abebe Kebede",
+    "department": "IT",
+    "job_title": "Software Engineer",
+    "date": "2024-08-23",
+    "check_in": "08:30",
+    "check_out": "17:30",
+    "working_hour": "8",
+    "status": "Present"
+  },
+  {
+    "id": "2",
+    "full_name": "Alemu Tekle",
+    "department": "HR",
+    "job_title": "HR Manager",
+    "date": "2024-08-23",
+    "check_in": "09:00",
+    "check_out": "18:00",
+    "working_hour": "8",
+    "status": "Present"
+  },
+  {
+    "id": "3",
+    "full_name": "Hana Mekonnen",
+    "department": "Finance",
+    "job_title": "Accountant",
+    "date": "2024-08-23",
+    "check_in": "08:45",
+    "check_out": "17:45",
+    "working_hour": "8",
+    "status": "Present"
+  },
+  {
+    "id": "4",
+    "full_name": "Biniam Tesfaye",
+    "department": "Marketing",
+    "job_title": "Marketing Specialist",
+    "date": "2024-08-23",
+    "check_in": "09:15",
+    "check_out": "18:15",
+    "working_hour": "8",
+    "status": "Present"
+  },
+  {
+    "id": "5",
+    "full_name": "Mulu Getachew",
+    "department": "Operations",
+    "job_title": "Operations Manager",
+    "date": "2024-08-23",
+    "check_in": "08:00",
+    "check_out": "17:00",
+    "working_hour": "8",
+    "status": "Present"
+  }
+]
+,
 "jobs": [
   {
     "id": "req001",
