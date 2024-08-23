@@ -374,7 +374,7 @@
     "status": "completed"
   }
 ],
-  "termination": [
+  "terminations": [
   {
     "employee_name": "John Doe",
     "department": "Marketing",
@@ -420,7 +420,60 @@
     "reason": "Relocation",
     "notice_date": "2024-08-05"
   }
+],
+  "resignations": [
+  {
+    "id": 1,
+    "employee_name": "Abebe Bekele",
+    "department": "IT",
+    "reason": "Pursuing higher education",
+    "clearance_form": true,
+    "notice_date": "2024-07-15",
+    "resignation_date": "2024-08-15",
+    "status": "approved"
+  },
+  {
+    "id": 2,
+    "employee_name": "Aster Mulugeta",
+    "department": "HR",
+    "reason": "Personal reasons",
+    "clearance_form": true,
+    "notice_date": "2024-07-20",
+    "resignation_date": "2024-08-20",
+    "status": "cancelled"
+  },
+  {
+    "id": 3,
+    "employee_name": "Kebede Fikadu",
+    "department": "Finance",
+    "reason": "Relocation",
+    "clearance_form": true,
+    "notice_date": "2024-07-25",
+    "resignation_date": "2024-08-25",
+    "status": "approved"
+  },
+  {
+    "id": 4,
+    "employee_name": "Mulu Worku",
+    "department": "Marketing",
+    "reason": "Better opportunity",
+    "clearance_form": false,
+    "notice_date": "2024-07-30",
+    "resignation_date": "2024-08-30",
+    "status": "approved"
+  },
+  {
+    "id": 5,
+    "employee_name": "Selamawit Teshome",
+    "department": "Sales",
+    "reason": "Health issues",
+    "clearance_form": false,
+    "notice_date": "2024-08-01",
+    "resignation_date": "2024-09-01",
+    "status": "cancelled"
+  }
 ]
+
 
 
 }
