@@ -147,5 +147,143 @@
     "password": "12",
     "confirm_password": "12"
   }
+],
+"jobs": [
+  {
+    "id": "req001",
+    "department": "Engineering",
+    "job_title": "Software Engineer",
+    "no_of_positions": 3,
+    "urgency": "High",
+    "requester_name": "Bekele Tesfaye",
+    "status": "Approved"
+  },
+  {
+    "id": "req002",
+    "department": "Marketing",
+    "job_title": "Digital Marketer",
+    "no_of_positions": 2,
+    "urgency": "Medium",
+    "requester_name": "Mulugeta Alemayehu",
+    "status": "Pending"
+  },
+  {
+    "id": "req003",
+    "department": "Human Resources",
+    "job_title": "HR Manager",
+    "no_of_positions": 1,
+    "urgency": "Low",
+    "requester_name": "Amina Mohammed",
+    "status": "Rejected"
+  },
+  {
+    "id": "req004",
+    "department": "Finance",
+    "job_title": "Accountant",
+    "no_of_positions": 4,
+    "urgency": "High",
+    "requester_name": "Jemal Abdella",
+    "status": "Approved"
+  },
+  {
+    "id": "req005",
+    "department": "Sales",
+    "job_title": "Sales Representative",
+    "no_of_positions": 5,
+    "urgency": "Medium",
+    "requester_name": "Hana Ali",
+    "status": "Pending"
+  },
+  {
+    "id": "req006",
+    "department": "Engineering",
+    "job_title": "DevOps Engineer",
+    "no_of_positions": 2,
+    "urgency": "Low",
+    "requester_name": "Kebede Berhanu",
+    "status": "Approved"
+  },
+  {
+    "id": "req007",
+    "department": "Marketing",
+    "job_title": "Content Creator",
+    "no_of_positions": 3,
+    "urgency": "High",
+    "requester_name": "Saba Tadesse",
+    "status": "Pending"
+  },
+  {
+    "id": "req008",
+    "department": "Finance",
+    "job_title": "Financial Analyst",
+    "no_of_positions": 2,
+    "urgency": "Medium",
+    "requester_name": "Yared Tesfaye",
+    "status": "Approved"
+  },
+  {
+    "id": "req009",
+    "department": "Human Resources",
+    "job_title": "Recruitment Specialist",
+    "no_of_positions": 1,
+    "urgency": "Low",
+    "requester_name": "Lily Negash",
+    "status": "Rejected"
+  },
+  {
+    "id": "req010",
+    "department": "Sales",
+    "job_title": "Sales Manager",
+    "no_of_positions": 1,
+    "urgency": "High",
+    "requester_name": "Solomon Asfaw",
+    "status": "Approved"
+  },
+  {
+    "id": "req011",
+    "department": "Engineering",
+    "job_title": "Frontend Developer",
+    "no_of_positions": 2,
+    "urgency": "Medium",
+    "requester_name": "Marta Abebe",
+    "status": "Pending"
+  },
+  {
+    "id": "req012",
+    "department": "Marketing",
+    "job_title": "SEO Specialist",
+    "no_of_positions": 4,
+    "urgency": "Low",
+    "requester_name": "Tesfaye Mulu",
+    "status": "Approved"
+  },
+  {
+    "id": "req013",
+    "department": "Finance",
+    "job_title": "Tax Advisor",
+    "no_of_positions": 3,
+    "urgency": "High",
+    "requester_name": "Nina Selam",
+    "status": "Pending"
+  },
+  {
+    "id": "req014",
+    "department": "Human Resources",
+    "job_title": "Payroll Specialist",
+    "no_of_positions": 2,
+    "urgency": "Medium",
+    "requester_name": "Hagos Teshome",
+    "status": "Approved"
+  },
+  {
+    "id": "req015",
+    "department": "Sales",
+    "job_title": "Business Development Manager",
+    "no_of_positions": 3,
+    "urgency": "Low",
+    "requester_name": "Sara Alemayehu",
+    "status": "Rejected"
+  }
 ]
+
 }
