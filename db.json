@@ -206,141 +206,172 @@
   }
 ]
 ,
-"jobs": [
+"job_postings": [
   {
-    "id": "req001",
-    "department": "Engineering",
+    "id": 1,
     "job_title": "Software Engineer",
-    "no_of_positions": 3,
-    "urgency": "High",
-    "requester_name": "Bekele Tesfaye",
-    "status": "Approved"
+    "department_id": 1,
+    "description": "Develop and maintain software applications, ensuring high performance and responsiveness.",
+    "requirements": "Bachelor's degree in Computer Science or related field, 3+ years of experience in software development.",
+    "posted_by": 2,
+    "external_link": "https://company.com/jobs/software-engineer",
+    "created_at": "2024-08-23T10:00:00Z",
+    "updated_at": null,
+    "status": "open",
+    "deadline": "2024-09-30"
   },
   {
-    "id": "req002",
-    "department": "Marketing",
-    "job_title": "Digital Marketer",
-    "no_of_positions": 2,
-    "urgency": "Medium",
-    "requester_name": "Mulugeta Alemayehu",
-    "status": "Pending"
+    "id": 2,
+    "job_title": "Marketing Specialist",
+    "department_id": 2,
+    "description": "Create and implement marketing strategies to promote products and services.",
+    "requirements": "Bachelor's degree in Marketing or related field, 2+ years of experience in marketing.",
+    "posted_by": 3,
+    "external_link": "https://company.com/jobs/marketing-specialist",
+    "created_at": "2024-08-23T10:30:00Z",
+    "updated_at": null,
+    "status": "open",
+    "deadline": "2024-10-15"
   },
   {
-    "id": "req003",
-    "department": "Human Resources",
-    "job_title": "HR Manager",
-    "no_of_positions": 1,
-    "urgency": "Low",
-    "requester_name": "Amina Mohammed",
-    "status": "Rejected"
+    "id": 3,
+    "job_title": "Customer Support Representative",
+    "department_id": 3,
+    "description": "Provide support to customers via phone, email, and chat. Resolve issues and answer queries.",
+    "requirements": "High school diploma, excellent communication skills, 1+ years of experience in customer support.",
+    "posted_by": 4,
+    "external_link": "https://company.com/jobs/customer-support-representative",
+    "created_at": "2024-08-23T11:00:00Z",
+    "updated_at": null,
+    "status": "closed",
+    "deadline": "2024-08-31"
   },
   {
-    "id": "req004",
-    "department": "Finance",
-    "job_title": "Accountant",
-    "no_of_positions": 4,
-    "urgency": "High",
-    "requester_name": "Jemal Abdella",
-    "status": "Approved"
+    "id": 4,
+    "job_title": "Graphic Designer",
+    "department_id": 4,
+    "description": "Design visual content for marketing and branding purposes. Collaborate with the marketing team.",
+    "requirements": "Bachelor's degree in Graphic Design or related field, proficiency in Adobe Creative Suite.",
+    "posted_by": 5,
+    "external_link": "https://company.com/jobs/graphic-designer",
+    "created_at": "2024-08-23T11:30:00Z",
+    "updated_at": null,
+    "status": "open",
+    "deadline": "2024-11-01"
   },
   {
-    "id": "req005",
-    "department": "Sales",
-    "job_title": "Sales Representative",
-    "no_of_positions": 5,
-    "urgency": "Medium",
-    "requester_name": "Hana Ali",
-    "status": "Pending"
-  },
+    "id": 5,
+    "job_title": "Data Analyst",
+    "department_id": 5,
+    "description": "Analyze and interpret complex data to support business decision-making. Create reports and visualizations.",
+    "requirements": "Bachelor's degree in Data Science or related field, strong analytical skills, experience with data visualization tools.",
+    "posted_by": 6,
+    "external_link": "https://company.com/jobs/data-analyst",
+    "created_at": "2024-08-23T12:00:00Z",
+    "updated_at": null,
+    "status": "open",
+    "deadline": "2024-09-15"
+  }
+]
+,
+"job_requests": [
   {
     "id": "req006",
-    "department": "Engineering",
-    "job_title": "DevOps Engineer",
-    "no_of_positions": 2,
-    "urgency": "Low",
-    "requester_name": "Kebede Berhanu",
-    "status": "Approved"
+    "requested_by": "Adanech Kebede",
+    "department_id": "dept006",
+    "job_title": "HR Specialist",
+    "justification": "Increased employee onboarding and HR-related tasks require additional support.",
+    "job_description": "Manage recruitment, onboarding, and employee relations.",
+    "requirements": "Bachelor's degree in Human Resources or related field, 2+ years experience in HR.",
+    "number_of_positions": 1,
+    "status": "pending",
+    "requested_at": "2024-08-23T09:00:00Z",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "comments": null,
+    "approval_status": "pending",
+    "updated_at": "2024-08-23T09:00:00Z"
   },
   {
     "id": "req007",
-    "department": "Marketing",
-    "job_title": "Content Creator",
-    "no_of_positions": 3,
-    "urgency": "High",
-    "requester_name": "Saba Tadesse",
-    "status": "Pending"
+    "requested_by": "Gete Damtew",
+    "department_id": "dept007",
+    "job_title": "UX/UI Designer",
+    "justification": "Need for enhanced user experience and interface design for upcoming product.",
+    "job_description": "Design user interfaces and improve user experience for digital products.",
+    "requirements": "Bachelor's degree in Design or related field, experience with user research and wireframing.",
+    "number_of_positions": 2,
+    "status": "approved",
+    "requested_at": "2024-08-22T15:30:00Z",
+    "reviewed_by": "Daniel Brown",
+    "reviewed_at": "2024-08-22T17:00:00Z",
+    "comments": "Approved for the design team to enhance the product.",
+    "approval_status": "approved",
+    "updated_at": "2024-08-22T17:00:00Z"
   },
   {
     "id": "req008",
-    "department": "Finance",
-    "job_title": "Financial Analyst",
-    "no_of_positions": 2,
-    "urgency": "Medium",
-    "requester_name": "Yared Tesfaye",
-    "status": "Approved"
+    "requested_by": "Abebe Kebede",
+    "department_id": "dept008",
+    "job_title": "Network Engineer",
+    "justification": "Expansion of network infrastructure requires additional engineering resources.",
+    "job_description": "Design, implement, and manage network systems and infrastructure.",
+    "requirements": "Bachelor's degree in Network Engineering or related field, 4+ years experience in network management.",
+    "number_of_positions": 1,
+    "status": "rejected",
+    "requested_at": "2024-08-21T13:00:00Z",
+    "reviewed_by": "George Wilson",
+    "reviewed_at": "2024-08-22T11:00:00Z",
+    "comments": "Rejected due to current network capacity and budget restrictions.",
+    "approval_status": "rejected",
+    "updated_at": "2024-08-22T11:00:00Z"
+  }
+]
+"job_interviews" : [
+  {
+    "id": 1,
+    "candidate_name": "Amanuel Tesfaye",
+    "department": "Software Engineering",
+    "job_title": "Software Engineer",
+    "scheduled_time": "2024-08-30T14:00:00+03:00",
+    "interviewer_name": "Mulugeta Abebe",
+    "status": "scheduled"
   },
   {
-    "id": "req009",
-    "department": "Human Resources",
-    "job_title": "Recruitment Specialist",
-    "no_of_positions": 1,
-    "urgency": "Low",
-    "requester_name": "Lily Negash",
-    "status": "Rejected"
-  },
-  {
-    "id": "req010",
-    "department": "Sales",
-    "job_title": "Sales Manager",
-    "no_of_positions": 1,
-    "urgency": "High",
-    "requester_name": "Solomon Asfaw",
-    "status": "Approved"
-  },
-  {
-    "id": "req011",
-    "department": "Engineering",
-    "job_title": "Frontend Developer",
-    "no_of_positions": 2,
-    "urgency": "Medium",
-    "requester_name": "Marta Abebe",
-    "status": "Pending"
-  },
-  {
-    "id": "req012",
+    "id": 2,
+    "candidate_name": "Selamawit Bekele",
     "department": "Marketing",
-    "job_title": "SEO Specialist",
-    "no_of_positions": 4,
-    "urgency": "Low",
-    "requester_name": "Tesfaye Mulu",
-    "status": "Approved"
+    "job_title": "Marketing Specialist",
+    "scheduled_time": "2024-09-02T10:00:00+03:00",
+    "interviewer_name": "Hirut Kifle",
+    "status": "completed"
   },
   {
-    "id": "req013",
-    "department": "Finance",
-    "job_title": "Tax Advisor",
-    "no_of_positions": 3,
-    "urgency": "High",
-    "requester_name": "Nina Selam",
-    "status": "Pending"
+    "id": 3,
+    "candidate_name": "Dawit Alemayehu",
+    "department": "Customer Support",
+    "job_title": "Customer Support Representative",
+    "scheduled_time": "2024-08-28T09:30:00+03:00",
+    "interviewer_name": "Fikirte Tesfaye",
+    "status": "canceled"
   },
   {
-    "id": "req014",
-    "department": "Human Resources",
-    "job_title": "Payroll Specialist",
-    "no_of_positions": 2,
-    "urgency": "Medium",
-    "requester_name": "Hagos Teshome",
-    "status": "Approved"
+    "id": 4,
+    "candidate_name": "Genet Solomon",
+    "department": "Design",
+    "job_title": "Graphic Designer",
+    "scheduled_time": "2024-09-05T11:00:00+03:00",
+    "interviewer_name": "Abraham Mekonnen",
+    "status": "scheduled"
   },
   {
-    "id": "req015",
-    "department": "Sales",
-    "job_title": "Business Development Manager",
-    "no_of_positions": 3,
-    "urgency": "Low",
-    "requester_name": "Sara Alemayehu",
-    "status": "Rejected"
+    "id": 5,
+    "candidate_name": "Kebede Yimer",
+    "department": "Data Analysis",
+    "job_title": "Data Analyst",
+    "scheduled_time": "2024-08-29T15:00:00+03:00",
+    "interviewer_name": "Hana Alemu",
+    "status": "completed"
   }
 ]
 
