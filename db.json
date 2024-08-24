@@ -210,7 +210,7 @@
   {
     "id": 1,
     "job_title": "Software Engineer",
-    "department_id": 1,
+    "department": "Operations",
     "description": "Develop and maintain software applications, ensuring high performance and responsiveness.",
     "requirements": "Bachelor's degree in Computer Science or related field, 3+ years of experience in software development.",
     "posted_by": 2,
@@ -223,7 +223,7 @@
   {
     "id": 2,
     "job_title": "Marketing Specialist",
-    "department_id": 2,
+    "department": "Operations",
     "description": "Create and implement marketing strategies to promote products and services.",
     "requirements": "Bachelor's degree in Marketing or related field, 2+ years of experience in marketing.",
     "posted_by": 3,
@@ -236,7 +236,7 @@
   {
     "id": 3,
     "job_title": "Customer Support Representative",
-    "department_id": 3,
+     "department": "Operations",
     "description": "Provide support to customers via phone, email, and chat. Resolve issues and answer queries.",
     "requirements": "High school diploma, excellent communication skills, 1+ years of experience in customer support.",
     "posted_by": 4,
@@ -249,7 +249,7 @@
   {
     "id": 4,
     "job_title": "Graphic Designer",
-    "department_id": 4,
+     "department": "Operations",
     "description": "Design visual content for marketing and branding purposes. Collaborate with the marketing team.",
     "requirements": "Bachelor's degree in Graphic Design or related field, proficiency in Adobe Creative Suite.",
     "posted_by": 5,
@@ -262,7 +262,7 @@
   {
     "id": 5,
     "job_title": "Data Analyst",
-    "department_id": 5,
+     "department": "Operations",
     "description": "Analyze and interpret complex data to support business decision-making. Create reports and visualizations.",
     "requirements": "Bachelor's degree in Data Science or related field, strong analytical skills, experience with data visualization tools.",
     "posted_by": 6,
@@ -278,7 +278,7 @@
   {
     "id": "req006",
     "requested_by": "Adanech Kebede",
-    "department_id": "dept006",
+     "department": "HR",
     "job_title": "HR Specialist",
     "justification": "Increased employee onboarding and HR-related tasks require additional support.",
     "job_description": "Manage recruitment, onboarding, and employee relations.",
@@ -295,7 +295,7 @@
   {
     "id": "req007",
     "requested_by": "Gete Damtew",
-    "department_id": "dept007",
+     "department": "HR",
     "job_title": "UX/UI Designer",
     "justification": "Need for enhanced user experience and interface design for upcoming product.",
     "job_description": "Design user interfaces and improve user experience for digital products.",
@@ -312,7 +312,7 @@
   {
     "id": "req008",
     "requested_by": "Abebe Kebede",
-    "department_id": "dept008",
+      "department": "HR",
     "job_title": "Network Engineer",
     "justification": "Expansion of network infrastructure requires additional engineering resources.",
     "job_description": "Design, implement, and manage network systems and infrastructure.",
