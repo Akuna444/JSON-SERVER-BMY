@@ -635,6 +635,48 @@
 
 
 
+"training-requests": [
+  {
+    "id": 1,
+    "department_name": "Human Resources",
+    "description": "Managing employee relations and organizational culture.",
+    "startingdate": "2024-01-10",
+    "status": "pending",
+    "feedback": null
+  },
+  {
+    "id": 2,
+    "department_name": "Finance",
+    "description": "Overseeing financial operations and planning.",
+    "startingdate": "2024-02-15",
+    "status": "active",
+    "feedback": "2024-03-01"
+  },
+  {
+    "id": 3,
+    "department_name": "IT",
+    "description": "Managing technology infrastructure and support.",
+    "startingdate": "2024-03-05",
+    "status": "completed",
+    "feedback": "2024-04-10"
+  },
+  {
+    "id": 4,
+    "department_name": "Marketing",
+    "description": "Developing marketing strategies and campaigns.",
+    "startingdate": "2024-04-01",
+    "status": "pending",
+    "feedback": null
+  },
+  {
+    "id": 5,
+    "department_name": "Sales",
+    "description": "Driving sales and customer relationships.",
+    "startingdate": "2024-05-20",
+    "status": "active",
+    "feedback": null
+  }
+]
 
 
 }
