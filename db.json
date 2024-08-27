@@ -477,7 +477,95 @@
     "resignation_date": "2024-09-01",
     "status": "cancelled"
   }
+],
+  "leave-requests" : [
+  {
+    "id": 1,
+    "employee_name": "Abebe Kebede",
+    "job_title": "Software Engineer",
+    "leave_type": "annual leave",
+    "amount_of_leave": 10,
+    "start_date": "2024-09-01",
+    "end_date": "2024-09-10",
+    "working_days_hours": 80,
+    "department_name": "IT",
+    "reason": "Vacation",
+    "status": "pending",
+    "review": "pending",
+    "submission_date": "2024-08-27",
+    "approved_by": null,
+    "feedback": null
+  },
+  {
+    "id": 2,
+    "employee_name": "Meseret Alemu",
+    "job_title": "Accountant",
+    "leave_type": "sick leave",
+    "amount_of_leave": 5,
+    "start_date": "2024-08-28",
+    "end_date": "2024-09-02",
+    "working_days_hours": 40,
+    "department_name": "Finance",
+    "reason": "Medical treatment",
+    "status": "approved",
+    "review": "checked",
+    "submission_date": "2024-08-26",
+    "approved_by": 3,
+    "feedback": "Get well soon"
+  },
+  {
+    "id": 3,
+    "employee_name": "Tewodros Bekele",
+    "job_title": "HR Manager",
+    "leave_type": "marriage leave",
+    "amount_of_leave": 7,
+    "start_date": "2024-09-15",
+    "end_date": "2024-09-22",
+    "working_days_hours": 56,
+    "department_name": "Human Resources",
+    "reason": "Wedding",
+    "status": "approved",
+    "review": "checked",
+    "submission_date": "2024-08-27",
+    "approved_by": 1,
+    "feedback": "Congratulations!"
+  },
+  {
+    "id": 4,
+    "employee_name": "Hana Mekonnen",
+    "job_title": "Marketing Specialist",
+    "leave_type": "maternity leave",
+    "amount_of_leave": 90,
+    "start_date": "2024-10-01",
+    "end_date": "2024-12-30",
+    "working_days_hours": 720,
+    "department_name": "Marketing",
+    "reason": "Childbirth",
+    "status": "pending",
+    "review": "pending",
+    "submission_date": "2024-08-27",
+    "approved_by": null,
+    "feedback": null
+  },
+  {
+    "id": 5,
+    "employee_name": "Kassa Tesfaye",
+    "job_title": "Project Manager",
+    "leave_type": "unpaid leave",
+    "amount_of_leave": 30,
+    "start_date": "2024-11-01",
+    "end_date": "2024-11-30",
+    "working_days_hours": 240,
+    "department_name": "Operations",
+    "reason": "Personal reasons",
+    "status": "rejected",
+    "review": "declined",
+    "submission_date": "2024-08-25",
+    "approved_by": 2,
+    "feedback": "Not enough leave balance"
+  }
 ]
+
 
 
 
