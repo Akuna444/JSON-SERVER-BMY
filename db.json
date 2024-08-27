@@ -564,7 +564,75 @@
     "approved_by": 2,
     "feedback": "Not enough leave balance"
   }
+], 
+  "overtime-requests": [
+  {
+    "id": 1,
+    "employee_name": "Getachew Fikre",
+    "section": "IT Support",
+    "request_date": "2024-08-27",
+    "overtime_date": "2024-08-30",
+    "hours_requested": 4,
+    "reason": "System maintenance",
+    "status": "pending",
+    "approved_by": null,
+    "approval_date": null,
+    "comments": "Urgent maintenance required"
+  },
+  {
+    "id": 2,
+    "employee_name": "Selamawit Hailu",
+    "section": "Accounting",
+    "request_date": "2024-08-26",
+    "overtime_date": "2024-08-29",
+    "hours_requested": 3,
+    "reason": "Month-end closing",
+    "status": "approved",
+    "approved_by": 4,
+    "approval_date": "2024-08-27",
+    "comments": "Ensure all transactions are recorded"
+  },
+  {
+    "id": 3,
+    "employee_name": "Melkamu Yared",
+    "section": "Logistics",
+    "request_date": "2024-08-25",
+    "overtime_date": "2024-08-28",
+    "hours_requested": 5,
+    "reason": "Urgent shipment preparation",
+    "status": "approved",
+    "approved_by": 3,
+    "approval_date": "2024-08-26",
+    "comments": "Overtime approved for critical shipment"
+  },
+  {
+    "id": 4,
+    "employee_name": "Aster Kebede",
+    "section": "Human Resources",
+    "request_date": "2024-08-27",
+    "overtime_date": "2024-09-01",
+    "hours_requested": 2,
+    "reason": "Employee file updates",
+    "status": "rejected",
+    "approved_by": 2,
+    "approval_date": "2024-08-28",
+    "comments": "Not a priority task"
+  },
+  {
+    "id": 5,
+    "employee_name": "Dereje Tadesse",
+    "section": "Sales",
+    "request_date": "2024-08-24",
+    "overtime_date": "2024-08-27",
+    "hours_requested": 6,
+    "reason": "End-of-quarter sales push",
+    "status": "approved",
+    "approved_by": 1,
+    "approval_date": "2024-08-25",
+    "comments": "Ensure target is met"
+  }
 ]
+
 
 
 
