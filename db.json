@@ -793,7 +793,70 @@
     "comments": "Awaiting review",
     "vehicles_name": "Land Cruiser"
   }
+],
+  "compliant-requests": [
+  {
+    "id": "1",
+    "employee_name": "Alemayehu Bekele",
+    "request_type": "Policy Violation",
+    "request_description": "Violation of company internet usage policy.",
+    "request_date": "2024-08-20",
+    "assigned_to": "Tsegaye Alemu",
+    "resolution_details": "Employee was given a warning and required to attend a policy training session.",
+    "priority_level": "Medium",
+    "comments": "Training session scheduled for next week.",
+    "feedback": "Acknowledged the resolution and will comply."
+  },
+  {
+    "id": "2",
+    "employee_name": "Hana Mekonnen",
+    "request_type": "Grievance",
+    "request_description": "Concerns about unequal workload distribution within the team.",
+    "request_date": "2024-08-18",
+    "assigned_to": "Mulugeta Abebe",
+    "resolution_details": "Team meeting held to address the issue; workloads redistributed.",
+    "priority_level": "High",
+    "comments": "Follow-up scheduled for next month.",
+    "feedback": "Appreciates the prompt response."
+  },
+  {
+    "id": "3",
+    "employee_name": "Kebede Tadesse",
+    "request_type": "Health & Safety",
+    "request_description": "Complaint about malfunctioning air conditioning in the office.",
+    "request_date": "2024-08-22",
+    "assigned_to": "Birhanu Demeke",
+    "resolution_details": "Air conditioning unit repaired and maintenance schedule updated.",
+    "priority_level": "Critical",
+    "comments": "Urgent request; resolved within 24 hours.",
+    "feedback": "Satisfied with the quick resolution."
+  },
+  {
+    "id": "4",
+    "employee_name": "Aster Getachew",
+    "request_type": "Legal",
+    "request_description": "Request for clarification on recent changes to employment contracts.",
+    "request_date": "2024-08-15",
+    "assigned_to": "Tigist Solomon",
+    "resolution_details": "Legal team provided detailed explanation and updated the FAQ.",
+    "priority_level": "Medium",
+    "comments": "All employees were notified of the changes.",
+    "feedback": "Understands the changes now."
+  },
+  {
+    "id": "5",
+    "employee_name": "Mesfin Dessie",
+    "request_type": "Grievance",
+    "request_description": "Dispute over denied leave request despite sufficient leave balance.",
+    "request_date": "2024-08-25",
+    "assigned_to": "Selamawit Alemayehu",
+    "resolution_details": "Leave request was approved after reviewing the case.",
+    "priority_level": "High",
+    "comments": "HR to review leave approval processes.",
+    "feedback": "Happy with the outcome."
+  }
 ]
+
 
 
 
