@@ -855,8 +855,50 @@
     "comments": "HR to review leave approval processes.",
     "feedback": "Happy with the outcome."
   }
-]
+], 
 
+"property-requests": [
+  {
+    "item_name": "Laptop",
+    "item_description": "15-inch, 16GB RAM, 512GB SSD",
+    "employee_name": "Abebe Kebede",
+    "department": "IT",
+    "hr_name": "Mulugeta Tadesse",
+    "status": "approved"
+  },
+  {
+    "item_name": "Office Chair",
+    "item_description": "Ergonomic chair with adjustable height",
+    "employee_name": "Sara Mengistu",
+    "department": "Human Resources",
+    "hr_name": "Tigist Alemu",
+    "status": "pending"
+  },
+  {
+    "item_name": "Projector",
+    "item_description": "4K UHD, 3000 lumens",
+    "employee_name": "Getu Alemayehu",
+    "department": "Marketing",
+    "hr_name": "Eyerusalem Bekele",
+    "status": "rejected"
+  },
+  {
+    "item_name": "Desktop Computer",
+    "item_description": "Intel i7, 32GB RAM, 1TB SSD",
+    "employee_name": "Selamawit Assefa",
+    "department": "Finance",
+    "hr_name": "Nebiyu Hailu",
+    "status": "approved"
+  },
+  {
+    "item_name": "Printer",
+    "item_description": "All-in-one printer with scanner and fax",
+    "employee_name": "Hana Dessie",
+    "department": "Operations",
+    "hr_name": "Mekdes Yilma",
+    "status": "pending"
+  }
+]
 
 
 
