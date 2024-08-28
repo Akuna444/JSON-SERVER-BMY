@@ -859,6 +859,7 @@
 
 "property-requests": [
   {
+    "id": 1,
     "item_name": "Laptop",
     "item_description": "15-inch, 16GB RAM, 512GB SSD",
     "employee_name": "Abebe Kebede",
@@ -867,6 +868,7 @@
     "status": "approved"
   },
   {
+    "id": 2,
     "item_name": "Office Chair",
     "item_description": "Ergonomic chair with adjustable height",
     "employee_name": "Sara Mengistu",
@@ -875,6 +877,7 @@
     "status": "pending"
   },
   {
+    "id": 3,
     "item_name": "Projector",
     "item_description": "4K UHD, 3000 lumens",
     "employee_name": "Getu Alemayehu",
@@ -883,6 +886,7 @@
     "status": "rejected"
   },
   {
+    "id": 4,
     "item_name": "Desktop Computer",
     "item_description": "Intel i7, 32GB RAM, 1TB SSD",
     "employee_name": "Selamawit Assefa",
@@ -891,6 +895,7 @@
     "status": "approved"
   },
   {
+    "id": 5,
     "item_name": "Printer",
     "item_description": "All-in-one printer with scanner and fax",
     "employee_name": "Hana Dessie",
@@ -899,6 +904,7 @@
     "status": "pending"
   }
 ]
+
 
 
 
