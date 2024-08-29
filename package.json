@@ -9,7 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.16.2"
+ "dependencies": {
+    "body-parser": "^1.19.0",
+    "json-server": "^0.14.2",
+    "jsonwebtoken": "^8.1.0"
   }
 }
