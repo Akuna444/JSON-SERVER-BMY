@@ -6,9 +6,7 @@
       "password": "ceo_pass",
       "role": "CEO",
       "full_name": "John Doe",
-      "profile_picture": "https://example.com/profile_pictures/ceo.jpg",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
-      "refresh_token": "dGhpc2lzbXlyZWZyZXNodG9rZW4xMjM0NTY="
+      "profile_picture": "https://example.com/profile_pictures/ceo.jpg"
     },
     {
       "id": 2,
@@ -16,9 +14,7 @@
       "password": "hrmanager_pass",
       "role": "HR-Manager",
       "full_name": "Jane Smith",
-      "profile_picture": "https://example.com/profile_pictures/hrmanager.jpg",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5d",
-      "refresh_token": "dGhpc2lzbXlyZWZyZXNodG9rZW4xMjM0NTYx="
+      "profile_picture": "https://example.com/profile_pictures/hrmanager.jpg"
     },
     {
       "id": 3,
@@ -26,9 +22,7 @@
       "password": "employee_pass",
       "role": "Employee",
       "full_name": "Alice Johnson",
-      "profile_picture": "https://example.com/profile_pictures/employee.jpg",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5e",
-      "refresh_token": "dGhpc2lzbXlyZWZyZXNodG9rZW4xMjM0NTYy="
+      "profile_picture": "https://example.com/profile_pictures/employee.jpg"
     }
   ]
 }
