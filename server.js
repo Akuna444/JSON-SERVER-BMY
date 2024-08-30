@@ -1,12 +1,14 @@
 const fs = require("fs");
 const bodyParser = require("body-parser");
 const jsonServer = require("json-server");
+const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken");
 
 const server = jsonServer.create();
 const router = jsonServer.router("./db.json");
 const userdb = JSON.parse(fs.readFileSync("./users.json", "UTF-8"));
 
+server.use(cookieParser());
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 server.use(jsonServer.defaults());
@@ -69,10 +71,7 @@ server.post("/auth/login", (req, res) => {
     sameSite: "None",
     maxAge: 24 * 60 * 60 * 1000,
   });
-  res.cookie("jwtddgfg", refresh_token);
-  res
-    .status(200)
-    .json({ userData: user, role: user.role, token: access_token });
+  res.status(200).json({ data: user, token: access_token });
 });
 
 server.get("/auth/refresh", (req, res) => {
