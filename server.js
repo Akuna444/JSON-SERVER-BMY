@@ -13,17 +13,19 @@ server.use(jsonServer.defaults());
 
 const SECRET_KEY = "123456789";
 
-const expiresIn = "1h";
-
 // Create a token from a payload
 function createToken(payload) {
-  return jwt.sign(payload, SECRET_KEY, { expiresIn });
+  return jwt.sign(payload, SECRET_KEY, { expiresIn: "10m" });
+}
+
+function createRefreshToken(payload) {
+  return jwt.sign(payload, SECRET_KEY, { expiresIn: "1d" });
 }
 
 // Verify the token
 function verifyToken(token) {
   return jwt.verify(token, SECRET_KEY, (err, decode) =>
-    decode !== undefined ? decode : err
+    decode !== undefined ? decode : null
   );
 }
 
@@ -58,9 +60,47 @@ server.post("/auth/login", (req, res) => {
 
   const user = findUserByEmailAndPassword({ email, password });
   const access_token = createToken({ user });
-  console.log("Access Token:" + access_token);
-  res.cookie();
-  res.status(200).json({ data: user, token: access_token });
+  const refresh_token = createRefreshToken({ user });
+  // console.log("usera", user);
+  // console.log("Access Token:" + access_token);
+  res.cookie("jwt", refresh_token, {
+    httpOnly: true,
+    secure: true,
+    sameSite: "None",
+    maxAge: 24 * 60 * 60 * 1000,
+  });
+  res.cookie("jwtddgfg", refresh_token);
+  res
+    .status(200)
+    .json({ userData: user, role: user.role, token: access_token });
+});
+
+server.get("/auth/refresh", (req, res) => {
+  const cookies = req.cookies;
+  console.log(cookies, "coookkk");
+  try {
+    if (!cookies?.jwt) {
+      return res
+        .status(400)
+        .json({ message: "the cookies token is not found" });
+    }
+    const refresh_token = cookies.jwt;
+    const decoded = verifyToken(refresh_token);
+    if (!decoded) {
+      res.status(401).json({ message: "unauthorized" });
+    }
+
+    const { user } = decoded;
+    const access_token = createToken({ user });
+
+    console.log("usera", user);
+    console.log("Access Token:" + access_token);
+    res
+      .status(200)
+      .json({ userData: user, role: user.role, token: access_token });
+  } catch (error) {
+    console.log(error);
+  }
 });
 
 server.use(/^(?!\/auth).*$/, (req, res, next) => {
