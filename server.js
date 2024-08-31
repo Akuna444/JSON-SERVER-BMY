@@ -102,6 +102,22 @@ server.get("/auth/refresh", (req, res) => {
   }
 });
 
+server.get("/auth/logout", (req, res) => {
+  const cookies = req.cookies;
+
+  if (!cookies?.jwt) {
+    return res.status(204).json({ message: "No content" }); // No content to clear
+  }
+
+  res.clearCookie("jwt", {
+    httpOnly: true,
+    secure: true,
+    sameSite: "None",
+  });
+
+  return res.status(200).json({ message: "Successfully logged out" });
+});
+
 server.use(/^(?!\/auth).*$/, (req, res, next) => {
   if (
     req.headers.authorization === undefined ||
