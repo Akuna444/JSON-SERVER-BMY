@@ -67,7 +67,7 @@ server.post("/auth/login", (req, res) => {
   // console.log("Access Token:" + access_token);
   res.cookie("jwt", refresh_token, {
     httpOnly: true,
-    secure: false,
+    secure: true,
     sameSite: "None",
     maxAge: 24 * 60 * 60 * 1000,
   });
@@ -111,7 +111,7 @@ server.get("/auth/logout", (req, res) => {
 
   res.clearCookie("jwt", {
     httpOnly: true,
-    secure: false,
+    secure: true,
     sameSite: "None",
   });
 
