@@ -111,7 +111,7 @@ server.get("/auth/logout", (req, res) => {
 
   res.clearCookie("jwt", {
     httpOnly: true,
-    secure: true,
+    secure: false,
     sameSite: "None",
   });
 
