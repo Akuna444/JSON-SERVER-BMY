@@ -94,9 +94,7 @@ server.get("/auth/refresh", (req, res) => {
 
     console.log("usera", user);
     console.log("Access Token:" + access_token);
-    res
-      .status(200)
-      .json({ userData: user, role: user.role, token: access_token });
+    res.status(200).json({ data: user, token: access_token });
   } catch (error) {
     console.log(error);
   }
