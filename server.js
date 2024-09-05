@@ -3,10 +3,19 @@ const bodyParser = require("body-parser");
 const jsonServer = require("json-server");
 const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken");
+const cors = require("cors");
 
 const server = jsonServer.create();
 const router = jsonServer.router("./db.json");
+const emp_routes = jsonServer.router('./employees.json')
 const userdb = JSON.parse(fs.readFileSync("./users.json", "UTF-8"));
+
+
+server.use(cors({
+  origin: "*", // Allow client domain
+  credentials: true, // Allow sending cookies with requests
+}));
+
 
 server.use(cookieParser());
 server.use(bodyParser.urlencoded({ extended: true }));
@@ -142,9 +151,15 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
     const message = "Error access_token is revoked";
     res.status(status).json({ status, message });
   }
-});
+})
+
+server.post("/employee/leave-requests", (req, res) => {
+  const {body} = req
+  console.log(body)
+})
 
 server.use(router);
+server.use('/employee', emp_routes)
 
 server.listen(5000, () => {
   console.log("Run Auth API Server");
