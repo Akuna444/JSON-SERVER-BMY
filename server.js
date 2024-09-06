@@ -153,11 +153,6 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
   }
 })
 
-server.post("/employee/leave-requests", (req, res) => {
-  const {body} = req
-  console.log(body)
-})
-
 server.use(router);
 server.use('/employee', emp_routes)
 
