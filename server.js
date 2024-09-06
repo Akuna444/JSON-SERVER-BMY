@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const jsonServer = require("json-server");
 const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken");
-const cors = require("cors");
+// const cors = require("cors");
 
 const server = jsonServer.create();
 const router = jsonServer.router("./db.json");
@@ -11,10 +11,10 @@ const emp_routes = jsonServer.router('./employees.json')
 const userdb = JSON.parse(fs.readFileSync("./users.json", "UTF-8"));
 
 
-server.use(cors({
-  origin: "*", // Allow client domain
-  credentials: true, // Allow sending cookies with requests
-}));
+// server.use(cors({
+//   origin: "*", // Allow client domain
+//   credentials: true, // Allow sending cookies with requests
+// }));
 
 
 server.use(cookieParser());
