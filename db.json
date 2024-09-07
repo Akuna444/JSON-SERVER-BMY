@@ -852,5 +852,21 @@
       "status": "pending"
     }
   ],
-  "notifications": []
+  "notifications": [
+    {
+      "id": 1,        
+      "user_id": 1,       
+      "type": "leave-request",            
+      "read": false,                         
+      "created_at": "2024-09-05T12:34:56Z"  
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "announcement_title": "Regarding Leave Requests",
+      "annoucement_description": "Due to frequent leave requests, the managemet is convening organizational meeting on Thrusday the 3rd, January",
+      "created_at": "2024-09-05T12:34:56Z"
+    }
+  ]
 }
